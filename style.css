@@ -261,8 +261,8 @@ footer{
         display: flex;
         align-items: center;
         position: absolute;
-        top: 40%;
-        left: 50%;
+        top: 50%;
+        left: 40%;
     }
 
         .bar {
@@ -326,3 +326,4 @@ footer{
         right: 10%;
     }
 }
+
