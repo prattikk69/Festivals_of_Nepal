@@ -81,13 +81,13 @@
     #hidden_menu { 
         display: none; 
         position: absolute; 
-        right: 10%; 
         top: 30%;
+        right: 10%;
     } 
         #hidden_menu ul { 
             display: flex; 
             gap: 40px; 
-            padding-right:10px ;
+            right: 5%;
         } 
         #hidden_menu li { 
             list-style: none; 
@@ -261,7 +261,7 @@ footer{
         display: flex;
         align-items: center;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
     }
 
@@ -323,7 +323,6 @@ footer{
         gap: clamp(5px, 5vw, 25px);
         align-items: flex-start;
         position: absolute;
-        right: 5%;
+        right: 10%;
     }
 }
-
