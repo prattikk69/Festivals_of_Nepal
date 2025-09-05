@@ -87,6 +87,7 @@
         #hidden_menu ul { 
             display: flex; 
             gap: 40px; 
+            padding-right:10px ;
         } 
         #hidden_menu li { 
             list-style: none; 
@@ -325,3 +326,4 @@ footer{
         right: 5%;
     }
 }
+
