@@ -3,7 +3,6 @@
         scroll-behavior: smooth;
     } 
     body { 
-        font-family: sans-serif; 
         overflow-x: hidden; 
         scroll-behavior: smooth;
     }
@@ -16,6 +15,7 @@
     nav { 
         position: sticky; 
         top: 0; width: 100%; 
+        font-family: 'Poppins', sans-serif;
         background-color: white; 
         padding: 5px; 
         border-bottom: solid; 
@@ -125,6 +125,7 @@ fieldset {
     border-radius: 10px;
     border: 1px solid #ccc;
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 legend {
@@ -261,8 +262,8 @@ footer{
         display: flex;
         align-items: center;
         position: absolute;
-        top: 50%;
-        left: 40%;
+        top: 40%;
+        left: 50%;
     }
 
         .bar {
@@ -326,4 +327,3 @@ footer{
         right: 10%;
     }
 }
-
