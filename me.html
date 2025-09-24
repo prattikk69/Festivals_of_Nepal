@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer</title>
+    <meta name="description" content="Festivals of Nepal">
+    <meta name="keywords" content="Nepal, Festival of Nepal, Dashain, Tihar">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="icon/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            flex-direction: column;
+        }
+        fieldset{
+            height: auto;
+            width: 50vw;
+            border-radius: 1rem;
+            padding:10px;
+            font-size: larger;
+            text-align: center;
+            font-family: 'Roboto',sans-serif;
+            flex-direction: colum;
+        }
+        legend{
+            font-size: 20px;
+            text-align: left;
+            margin-left: 20px;
+            font-family: 'Poppins',sans-serif;
+        }
+        button{
+            height: 40px;
+            width: clamp(60px,80px,100px);
+            font-size: clamp(13px,15px,20px);
+            margin: 20px;
+            font-family: 'Roboto',sans-serif;
+        }
+        img{
+            height: 152px;
+            position: relative;
+        }
+        p{
+            background-color: white;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <img src="photos/MBE.jpg">
+    <fieldset>
+        <legend>Developed by:</legend>
+        <p>No introduction NEEDED</p>
+        <p>They already know my NAME.</p>
+        <button onclick="getback()"><i class="fa-solid fa-arrow-left"></i> Go Back</button>
+    </fieldset>
+    <img src="photos/ok.png" alt="">
+    <script>
+        function getback(){
+            window.location.href = "index.html";
+            window.close();
+        }
+    </script>
+</body>
+</html>
